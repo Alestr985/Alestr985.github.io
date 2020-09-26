@@ -6,6 +6,9 @@
 	font-family:Roboto-Regular;
 	text-decoration:none;
 }
+body{
+	background-color: #f0f0f0;
+}
 
 /*variable*/
 
@@ -170,7 +173,6 @@ header{
 /*conent center styles*/
 
 .content-center{
-	background-color: #f0f0f0;
 	padding:2vw 0 2vw 0;
 }
 
@@ -183,7 +185,7 @@ header{
 
 /* media rule*/
 
-@media (max-width: 1060px) and (min-width: 900px){
+@media (max-width: 1200px) and (min-width: 1100px){
 	.cards-board{
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -214,7 +216,7 @@ header{
 	}
 }
 
-@media (max-width: 900px) and (min-width: 300px){
+@media (max-width: 1100px) and (min-width: 300px){
 	.cards-board{
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap:4vw;
