@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>GeyserCalc</title>
+	<link rel="shortcut icon" href="../IMG/icon.ico"/>
+	<link rel="stylesheet" href="CSS/geyser.css">
+	<link rel="stylesheet" href="../CSS/main.css">
+</head>
+<body id="body">
+	<div class="container">
+			<header>
+		  	<div class="logo">
+		  		<a href="../index.html" class="underline">ONI CALCULATOR</a>
+		  	</div>
+		  </header>
+		  <section class="content-center">
+		  	<form id="calculator">
+		  		<div class="calculator__item">Выработка в секунду</div>
+		  		<input type="text"  class="calculator__input" name="eruption" autocomplete="off" >
+		  		<div class="calculator__item">Время выработки ресурсов</div>
+		  		<input type="text"  class="calculator__input" name="eruption_time" autocomplete="off" >
+		  		<div class="calculator__item">Время выработки ресурсов и простоя</div>
+		  		<input type="text"  class="calculator__input" name="cycle_time" autocomplete="off" >
+		  		<div class="calculator__item">Циклы активности</div>
+		  		<input type="text"  class="calculator__input" name="work_time" autocomplete="off" >
+		  		<div class="calculator__item">Циклы активности и циклы простоя</div>
+		  		<input type="text"  class="calculator__input" name="activity_cycle" autocomplete="off">
+		  		<input type="submit" class="calculator__button" value="Вычислить">
+		  		<div id="result" class="calculator__output"></div>
+		  	</form>
+		  </section>
+	</div>
+	<script src="JS/main.js"></script> 
+</body>
+</html>
