@@ -13,5 +13,4 @@ document.getElementsByName("submit")[0].onclick = (event) =>{
   let distance = document.getElementsByName("distance")[0].value;
   let result = Math.round(distance/efficency);
   document.getElementById("result").innerHTML = result+" kg";
-  document.getElementsByClassName("image")[0].src = "IMG/hydrogen.png";
 }

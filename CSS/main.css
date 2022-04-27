@@ -100,7 +100,7 @@ header{
 /*menu_item styles*/
 
 .main-menu__item a{
-	border-radius:0.7rem;
+	border-radius:calc(0.95*var(--sizeindex));
 	padding:0.3rem;
 	text-shadow: 1px 1px 2px black;
 	font-size:calc(0.95*var(--sizeindex));
